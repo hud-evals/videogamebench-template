@@ -5,6 +5,7 @@ __pycache__/
 *.state
 logs/
 .hud/
+.claude/
 .DS_Store
 dist/
 
