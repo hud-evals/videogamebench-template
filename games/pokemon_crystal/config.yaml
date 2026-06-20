@@ -1,0 +1,19 @@
+# Pokémon Crystal (Game Boy Color). ROM not shipped — mount your own
+# pokemon_crystal.gbc into roms/ (it is git-ignored). preload.txt navigates the
+# title/intro into gameplay. Scored by a dense RAM reward (badges/levels/money,
+# see ram_map.py), the fork's verified checkpoint images, and a small exploration
+# signal so there is partial credit before the first checkpoint/badge.
+emulator: gba
+rom: pokemon_crystal.gbc
+boot_frames: 60
+action_frames: 24
+scoring:
+  - type: ram
+    weight: 0.5
+  - type: checkpoint
+    threshold: 5      # GAME_THRESHOLDS["pokemon"] in VideoGameBench
+    weight: 0.4
+  - type: exploration
+    target: 30
+    threshold: 4
+    weight: 0.1

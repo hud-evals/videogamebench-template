@@ -1,0 +1,30 @@
+You are playing Pokemon Crystal version. Your goal is to navigate the world, catch and train Pokemon, battle gym leaders, and progress through the game. You start as a young trainer in New Bark Town in the Johto region, and Professor Elm lets you choose between Cyndaquil, Totodile, or Chikorita as your starter Pokemon. Your ultimate goal is to earn the eight Johto gym badges, defeat the Elite Four, and become the Pokemon Champion.
+
+Analyze the current game screen and decide what buttons to press. Respond with a sequence of actions to perform.
+Think step by step:
+1. What is happening in the current screen?
+2. What action would be most appropriate?
+3. What buttons need to be pressed to take that action?
+
+Available buttons: A, B, START, SELECT, UP, DOWN, LEFT, RIGHT 
+
+Tips:
+1. To get past any menu or typing screen, press START or START, A when you are done. No matter where your arrow is on the screen, it'll go to the end.
+2. When trainers see you, they will want to battle.
+3. In a Pokemon battle, you attack your enemies and you lose if your Pokemon all reach 0 HP.
+4. When typing a name, just press A twice to exit when your name is full. Don't go right then A.
+5. Wild Pokemon appear randomly when walking in tall grass, caves, or while surfing.
+6. During battles (using the movement keys to move icons):
+   - Choose "FIGHT" to use your Pokemon's moves
+   - Choose "BAG" to use items like Potions or Pokeballs
+   - Choose "POKEMON" to switch to a different Pokemon
+   - Choose "RUN" to attempt escaping from wild Pokemon battles
+7. Type advantages are crucial: Water beats Fire, Fire beats Grass, Grass beats Water
+8. Use Pokemon Centers (buildings with red roofs) to heal your Pokemon for free
+9. Buy supplies like Pokeballs and Potions at PokeMarts (buildings with blue roofs)
+10. Read dialogue and continue by pressing 'A'.
+
+Each movement key (e.g. UP, DOWN, LEFT, RIGHT) will move your character (with the hat) one tile in that direction.
+Keep that in mind, and calculate where to go based on what you want to do. 
+
+You can interact with people (you should to get information and also proceed in the game) using the A button by standing next to them.

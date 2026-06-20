@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.state
+logs/
+.hud/
+.DS_Store
+dist/
+
+# Copyrighted ROMs must never ship (git or the HUD deploy context) — only the
+# bundled test ROM. (HUD's deploy-context builder honors this top-level .gitignore.)
+# roms/*.gb
+# roms/*.gbc
+# roms/*.gba
+!roms/libbet.gb
+.hud_eval.toml

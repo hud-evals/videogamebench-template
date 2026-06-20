@@ -1,0 +1,16 @@
+# Zelda: Link's Awakening DX (Game Boy Color). ROM not shipped — mount your own
+# zelda_links_awakening.gbc into roms/ (it is git-ignored). preload.txt creates a
+# save file and exits the starting house into the overworld. Scored by the fork's
+# verified checkpoint images plus a generic exploration reward.
+emulator: gba
+rom: zelda_links_awakening.gbc
+boot_frames: 60
+action_frames: 16
+scoring:
+  - type: checkpoint
+    threshold: 10     # GAME_THRESHOLDS["zelda"] in VideoGameBench
+    weight: 0.7
+  - type: exploration
+    target: 30
+    threshold: 4
+    weight: 0.3

@@ -1,0 +1,72 @@
+# Zelda: Link's Awakening DX - Preload
+# Skips title screen, creates a new save file, skips Marin's opening dialogue,
+# and exits the starting house so the LLM begins in the Koholint Island overworld.
+
+# Wait for ROM to load
+sleep 10
+
+# ============================
+# TITLE SCREEN → FILE SELECT
+# START wakes the title, A presses advance past the animated intro
+# ============================
+press_key START
+sleep 3
+press_key A
+sleep 2
+press_key A
+sleep 2
+press_key A
+sleep 3
+
+# ============================
+# FILE SELECT → NAME ENTRY → CONFIRM FILE
+# START+START moves to file select, A selects empty slot → opens name entry,
+# A types 1-2 chars (cursor lands wherever), START confirms name,
+# A finalises back to file select
+# ============================
+press_key START
+sleep 2
+press_key START
+sleep 2
+press_key A
+sleep 2
+press_key A
+sleep 2
+press_key START
+sleep 2
+press_key A
+sleep 5
+
+# File now shows in player select — start it
+press_key A
+sleep 3
+press_key A
+sleep 3
+press_key A
+sleep 3
+press_key START
+sleep 8
+
+# ============================
+# MARIN'S OPENING DIALOGUE
+# Auto-triggers when the game starts (no walking needed).
+# Five dialogue boxes:
+#   1. "What a relief! I thought you'd never wake up!"
+#   2. "You were tossing and turning... What? Zelda?"
+#   3. "What? Zelda? No, my name's Marin! You must..."
+#   4. "still be feeling a little woozy."
+#   5. "You are on Koholint Island!"
+# Extra A presses are harmless.
+# ============================
+press_key A
+sleep 3
+press_key A
+sleep 2
+press_key A
+sleep 2
+press_key A
+sleep 2
+press_key A
+sleep 3
+press_key A
+sleep 2

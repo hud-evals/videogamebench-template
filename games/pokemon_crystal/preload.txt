@@ -1,0 +1,174 @@
+# Wait for initial game load
+sleep 30
+
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+press_key A
+sleep 3
+press_key A
+sleep 5
+
+press_key A
+sleep 3
+
+# ============================
+# NAMING SCREEN - type LUCAS
+# ============================
+# Pokemon Crystal keyboard layout (uppercase):
+#   Row 0: A B C D E F G H I
+#   Row 1: J K L M N O P Q R
+#   Row 2: S T U V W X Y Z _
+# Cursor starts at A (row 0, col 0)
+
+# L (row 1, col 2): DOWN -> J, RIGHT -> K, RIGHT -> L, then A to type
+press_key DOWN
+sleep 1
+press_key RIGHT
+sleep 1
+press_key RIGHT
+sleep 1
+press_key A
+sleep 1
+
+# U (row 2, col 2): DOWN from L -> U, then A to type
+press_key DOWN
+sleep 1
+press_key A
+sleep 1
+
+# C (row 0, col 2): UP -> L, UP -> C, then A to type
+press_key UP
+sleep 1
+press_key UP
+sleep 1
+press_key A
+sleep 1
+
+# A (row 0, col 0): LEFT -> B, LEFT -> A, then A to type
+press_key LEFT
+sleep 1
+press_key LEFT
+sleep 1
+press_key A
+sleep 1
+
+# S (row 2, col 0): DOWN -> J col 0, DOWN -> S, then A to type
+press_key DOWN
+sleep 1
+press_key DOWN
+sleep 1
+press_key A
+sleep 1
+
+sleep 1
+press_key S
+sleep 1
+
+sleep 1
+press_key E
+sleep 1
+
+# Confirm name: START jumps cursor to END button, then A to confirm
+press_key START
+sleep 2
+press_key A
+sleep 5
+
+# ============================
+# POST-NAME INTRO DIALOGUE
+# Advance through professor intro text until player gains control in New Bark Town
+# ============================
+press_key A
+sleep 5
+press_key A
+sleep 3
+press_key A
+sleep 3
+press_key A
+sleep 5
+press_key A
+sleep 3
+press_key A
+sleep 3
+press_key A
+sleep 5
+press_key A
+sleep 3
+
