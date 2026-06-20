@@ -197,7 +197,7 @@ gameplay instead of on the title screen.
 python local_run.py --list                       # list games
 python local_run.py --game kirby --steps 120 --out logs/kirby   # scripted smoke run + screenshots
 python -m pytest tests/                           # unit/integration tests
-hud dev env:env                                   # run the MCP server locally
+hud serve env:env                                 # run the MCP server locally
 ```
 
 `local_run.py` drives the real scenario + tools with a heuristic button sequence
